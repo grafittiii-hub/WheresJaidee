@@ -607,7 +607,7 @@ Click the title "Where's Jaidee" to refresh the game page!!
         <div class="game-header text-white p-2 md:p-3">
             <div class="flex justify-between items-center">
                 <!-- Back Button -->
-                <button id="back-btn" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-4 py-2 rounded-xl font-semibold transition-all duration-200 backdrop-blur-sm border border-white border-opacity-20 flex items-center gap-2">
+                <button id="back-btn" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-grey px-4 py-2 rounded-xl font-semibold transition-all duration-200 backdrop-blur-sm border border-white border-opacity-20 flex items-center gap-2">
                     <span class="text-lg">←</span>
                     <span class="hidden sm:inline">Back</span>
                 </button>
