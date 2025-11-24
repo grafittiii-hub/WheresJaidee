@@ -1,6 +1,6 @@
-Click the title "Where's Jaidee" to enter the game!!
+Click the title "Where's Jaidee" to refresh the game page!!
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
