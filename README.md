@@ -1,5 +1,3 @@
-Click the title "Where's Jaidee" to refresh the game page!!
-
 
 <html lang="en">
 <head>
