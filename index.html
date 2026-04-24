@@ -2751,6 +2751,18 @@
             // Initialize security system
             SecurityManager.init();
         });
+// 阻止右鍵選單
+document.oncontextmenu = () => false;
+
+// 阻止 F12 和常見的開發者工具快捷鍵
+document.onkeydown = (e) => {
+    if (e.keyCode === 123 || 
+        (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67))) {
+        return false;
+    }
+};
+        
+console.log("%c停！別看我的原始碼，快去找Jaidee吧！", "color: blue; font-size: 30px; font-weight: bold;");
     </script>
 
     <!-- Persistent Copyright Footer -->
